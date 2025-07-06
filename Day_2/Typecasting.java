@@ -1,5 +1,5 @@
 package Day_2;
-public class typecasting{
+public class Typecasting{
     public static void main(String[] args) {
         byte a = 50;
         short b = 250;
