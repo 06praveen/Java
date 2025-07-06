@@ -1,5 +1,4 @@
-
-
+package Day_1;
 public class Primitive {
     public static void main(String[] args){
         int rno = 60;
