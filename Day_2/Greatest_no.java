@@ -2,7 +2,7 @@
 package Day_2;
 import java.util.Scanner;
 
-public class Greatestno {
+public class Greatest_no {
     public static void main(String[] args) {
         Scanner in = new Scanner(System.in);
         System.out.print("Enter the 3  no.'s : ");
