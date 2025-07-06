@@ -1,3 +1,4 @@
+package Day_1;
 import java.util.Scanner;
 public class sum {
     public static void main(String[] args) {
