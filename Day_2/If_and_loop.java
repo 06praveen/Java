@@ -1,5 +1,5 @@
 package Day_2;
-public class if_and_loop {
+public class If_and_loop {
     public static void main(String[] args){
         int a=10;
         if(a>0)
