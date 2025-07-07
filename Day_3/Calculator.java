@@ -1,3 +1,4 @@
+//Created a Basic Calculator using if-else & loop.
 package Day_3;
 import java.util.Scanner;
 
@@ -9,8 +10,8 @@ public class Calculator {
         System.out.print("/nEnter the two numbers : ");
         int num1 = in.nextInt();
         int num2 = in.nextInt();
-        System.out.print("Operations :- \n1.Add \n2.Sub \n3.Mul \n4.Div \n5.Mod \n" + //
-                        "6.Exit /n : ");
+        System.out.print("Operations :- \n1.Add \n2.Subtract \n3.Multiply \n4.Divide \n5.Modulus " + //
+                        "\n6.Exit \n : ");
         int n = in.nextInt();
         if(n==1)
         {
@@ -20,12 +21,12 @@ public class Calculator {
         else if(n==2)
         {
             result=num1-num2;
-            System.out.print("Sub of two numbers is : "+result);
+            System.out.print("Subtract of two numbers is : "+result);
         }
         else if(n==3)
         {
             result=num1*num2;
-            System.out.print("Mul of two numbers is : "+result);
+            System.out.print("Multiply of two numbers is : "+result);
         }
         else if(n==4)
         {
@@ -36,13 +37,13 @@ public class Calculator {
             else
             {
                 result=num1/num2;
-                System.out.print("Div of two numbers is : "+result);
+                System.out.print("Divide of two numbers is : "+result);
             }
         }
         else if(n==5)
         {
             result=num1%num2;
-            System.out.print("Mod of two numbers is : "+result);
+            System.out.print("Modulus of two numbers is : "+result);
         }
         else if(n==6)
         {
