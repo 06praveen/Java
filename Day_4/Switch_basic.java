@@ -7,11 +7,11 @@ public class Switch_basic{
         System.out.print("Enter the name of Fruit : ");
         String fruits = input.next().trim().toLowerCase();
         
-        switch(fruits)
+        switch(fruits)    //We can alsouse new switch case syntax
         {
             case "mango":
-            System.out.println("You are Sweet as Mango😙");
-            break;
+            System.out.println("You are Sweet as Mango😙");  //case "mango"->System.out.println("You are Sweet as Mango😙");
+            break;                                           //By using the new syntax we dont need to add break
             case "banana":
             System.out.println("You have stregth like Banana🫡");
             break;
