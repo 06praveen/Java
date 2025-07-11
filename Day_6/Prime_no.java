@@ -1,3 +1,4 @@
+//To check the number is prime or not
 package Day_6;
 import java.util.Scanner;
 
@@ -12,7 +13,7 @@ public class Prime_no {
             System.out.println("The number "+num+" not a Prime Number");
         }
         else{
-        for(int i=2;i<num;i++)
+        for(int i=2;i<num;i++)            //Loop to check
         {
             if(num%i==0)
             {
