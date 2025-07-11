@@ -2,7 +2,7 @@ package Day_6;
 
 import java.util.Arrays;
 
-public class Varargs {
+public class Varargs {        //Variable arguments (varargs)
     public static void main(String[] args) {
         varargs(10,18,7,45);            //Value is passed
     }
