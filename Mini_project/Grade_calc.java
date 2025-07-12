@@ -1,4 +1,4 @@
-package Day_2;
+package Mini_project;
 import java.util.Scanner;
 
 public class Grade_calc{
