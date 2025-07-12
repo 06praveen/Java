@@ -1,5 +1,5 @@
 //Used latest switch case syntax
-package Day_4;
+package Mini_project;
 import java.util.Scanner;
 
 public class Day_find {
