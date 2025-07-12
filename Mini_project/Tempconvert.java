@@ -1,4 +1,5 @@
-package Day_2;
+//Convert temperature °C to °F
+package Mini_project;
 import java.util.Scanner;
 
 public class Tempconvert {
