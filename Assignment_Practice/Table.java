@@ -1,4 +1,4 @@
-package Day_7;
+package Assignment_Practice;
 import java.util.Scanner;
 
 public class Table {
