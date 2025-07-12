@@ -1,3 +1,4 @@
+// Check the Division you are passed with by giving input your percentage
 package Mini_project;
 import java.util.Scanner;
 
