@@ -1,4 +1,4 @@
-//Used latest switch case syntax
+//Find Day by putting number (Used latest switch case syntax)
 package Mini_project;
 import java.util.Scanner;
 
