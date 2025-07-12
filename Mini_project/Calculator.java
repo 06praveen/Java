@@ -1,4 +1,4 @@
-package Day_3;
+package Mini_project;
 import java.util.Scanner;
 
 public class Calculator {
