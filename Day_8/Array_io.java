@@ -15,5 +15,8 @@ public class Array_io {
         {
             System.out.print(arr[i]+ " ");
         }
+
+        // else we can use this for easy print of all elements in array
+        System.out.print("\n"+Arrays.toString(arr));
     }
 }
