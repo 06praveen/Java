@@ -10,7 +10,7 @@ public class Array_twoD {
         System.out.print("Enter the Arrays[2D] Elements : ");
         for(int i=0;i<arr.length;i++)
         {
-            for(int j=0;j<3;j++)
+            for(int j=0;j<arr[i].length;j++)
             {
                 arr[i][j] = in.nextInt();
             }
