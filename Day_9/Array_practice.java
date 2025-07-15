@@ -1,1 +1,1 @@
-// Hello
+// Practicing methods in array
