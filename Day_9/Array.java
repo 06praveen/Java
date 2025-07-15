@@ -1,1 +1,1 @@
-D
+// Practicing array in java
