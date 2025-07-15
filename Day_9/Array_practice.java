@@ -1,1 +1,1 @@
-// Practicing methods in array
+// Practicing various methods in array in java
