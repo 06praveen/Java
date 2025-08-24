@@ -8,7 +8,7 @@ public class Quick_revise_1{
     int n = in.nextInt();
     for(int i=1;i<=10;i++)
       {
-        System.out.print("\n"+n+" x "+i+" = "+(n*i));
+        System.out.println(n+" x "+i+" = "+(n*i));
       }
   }
 }
