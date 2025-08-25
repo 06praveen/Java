@@ -1,3 +1,4 @@
+//Revised the function using parameter to find factorial
 package Day_12;
 import java.util.Scanner;
 
