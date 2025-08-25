@@ -1,3 +1,4 @@
+//Revised the code to find the occurence of a no.
 package Day_12;
 import java.util.Scanner;
 
