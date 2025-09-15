@@ -6,7 +6,7 @@ class Solution {
             int mid=(low+high)/2;
             if(nums[mid]==target)
             {return mid;}
-            if(nums[mid]>target)
+            if(nums[mid]>target)         //Binary Search Algorithm
             {high=mid-1;}
             else
             {low=mid+1;}
