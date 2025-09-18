@@ -5,11 +5,7 @@ class Solution {
       for(int i=0;i<nums.length;i++)
         {
           arr[i] = nums[i];              //Coppying the elements of given array 
-        }
-      int i=0;
-      for(int j=nums.length;j<(2*nums.length);j++)
-        {
-          arr[j] = nums[i];         //Copying the elements of given array again to concat
+          arr[i+nums.length] = nums[i];        //Copying the elements of given array again 
         }
       return arr;
     }
