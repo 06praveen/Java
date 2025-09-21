@@ -16,3 +16,12 @@ class Solution {
         }
     };
 }
+//Time Complexity - O(N²)
+//Space Complexity - O(1)
+
+//But if we use direct sorting function i.e
+class Solution{
+    public void sortColors(int[] nums){
+        Arrays.sort(nums);
+    };
+}
