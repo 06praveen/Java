@@ -25,3 +25,5 @@ class Solution{
         Arrays.sort(nums);
     };
 }
+//Time Complexity - O(NlogN)
+//Space Complexity - O(1)
