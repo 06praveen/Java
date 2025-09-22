@@ -1,3 +1,4 @@
+//Solved the problem to calculate how many Numbers are Smaller than the Current Number
 class Solution {
     public int[] smallerNumbersThanCurrent(int[] nums) {
         int count=0;
