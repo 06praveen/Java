@@ -1,4 +1,4 @@
-//Solved the leetcode problem to Running Sun of 1D Array
+//Solved the leetcode problem to Running Sun of 1D Array solution with higher time complexity
 class Solution {
     public int[] runningSum(int[] nums) {
         int[] arr = new int[nums.length];
