@@ -1,3 +1,4 @@
+//Solved the leetcode problem to return the sums difference of divisible and non divisible
 class Solution {
     public int differenceOfSums(int n, int m) {
         int isDiv=0;
