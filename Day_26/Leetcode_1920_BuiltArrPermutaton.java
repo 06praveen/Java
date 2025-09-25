@@ -1,3 +1,4 @@
+//Solved the leetcode problem to build a array from permutation
 class Solution {
     public int[] buildArray(int[] nums) {
         int[] ans = new int[nums.length];
@@ -6,3 +7,5 @@ class Solution {
         return ans;
     }
 }
+//Time Complexity - O(N)
+//Space Complexity - O(N)
