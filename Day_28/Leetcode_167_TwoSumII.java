@@ -12,3 +12,5 @@ class Solution {
         return new int[] {0};
     }
 }
+// Time Complexity - O(N²)
+// Space Complexity - O(1)
