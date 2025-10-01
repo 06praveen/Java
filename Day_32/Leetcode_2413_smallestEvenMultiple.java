@@ -1,3 +1,4 @@
+//Solved the leetcode problem to find the smallest Even multiple which is between 2 and n number
 class Solution {
     public int smallestEvenMultiple(int n) {
         for(int i=n;i>0;i++)
