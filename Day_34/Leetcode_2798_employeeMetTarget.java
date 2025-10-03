@@ -1,3 +1,4 @@
+//Solved the leetcode problem to count the no. of employee who met the target
 class Solution {
     public int numberOfEmployeesWhoMetTarget(int[] hours, int target) {
         int count=0;
@@ -9,3 +10,5 @@ class Solution {
         return count;
     }
 }
+// Time Complexity - O(n)
+// Space Complexity - O(1)
