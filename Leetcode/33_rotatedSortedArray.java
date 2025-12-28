@@ -19,7 +19,7 @@ class Solution {
         while(e>s)
         {
             int mid=s+(e-s)/2;
-            if(arr[mid]>arr[mid+1])
+            if(arr[mid]>arr[mid+1])        //Test Cases
             {
                 return mid;
             }
