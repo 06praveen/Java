@@ -4,10 +4,10 @@ class Solution {
     public int search(int[] arr, int target) {
         int n=arr.length;
         int pivot = pivotSearch(arr);
-        int result = AgnosticBS(arr,target,0,pivot);     //Searching on the left handside of the pivot
+        int result = binarySearch(arr,target,0,pivot);     //Searching on the left handside of the pivot
         if(result==-1)
         {
-            result=AgnosticBS(arr,target,pivot+1,n-1);    //Searching on the right handside of the peak if target is not found on the left
+            result=binarySearch(arr,target,pivot+1,n-1);    //Searching on the right handside of the peak if target is not found on the left
         }
         return result;
     }
@@ -32,7 +32,7 @@ class Solution {
     }
 
   //Normal Binary Search Method to find the target
-    public int AgnosticBS(int[] arr,int target,int s,int e){
+    public int binarySearch(int[] arr,int target,int s,int e){
         int ans=-1;
         while(e>=s)
         {
