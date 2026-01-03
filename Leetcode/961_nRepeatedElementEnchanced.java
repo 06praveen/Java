@@ -1,4 +1,4 @@
-//Solved this in O(n) time complexity which is better than my past approach
+//Solved this in O(n) time complexity which is better than my past approach.
 class Solution {
     public int repeatedNTimes(int[] arr) {
         int n=arr.length;
