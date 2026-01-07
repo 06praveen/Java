@@ -1,3 +1,4 @@
+//Solved a Hard leetcode problem to find minimum in a rotated sorted array containing duplicate elements using binary search
 class Solution {
     public int findMin(int[] arr) {
         int n=arr.length;
